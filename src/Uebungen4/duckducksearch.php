@@ -1,0 +1,1 @@
+<?php 	echo "<h1>Duckduckgo Search</h1>";    // Show Form	echo '<form method="get" action="https://duckduckgo.com">';	echo '<br>SearchText: <input type="text" name="q" required placeholder="duckduckgo searchquery">';	echo '<br><input type="submit" value="Send">';	echo '</form>';?>
