@@ -38,7 +38,7 @@ $mail->SetFrom('david_hauri@alkfass.com', 'First Last');
 $mail->Subject    =  $subject;//;"PHPMailer Test Subject via smtp (Gmail), basic";
 //$mail->AltBody    = $message;// "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 
-$mail->MsgHTML('<h1>test</test>'$message);
+$mail->MsgHTML($message);
 
 //$address = "chubbson@gmail.com";
 $mail->AddAddress($toMail, "");
