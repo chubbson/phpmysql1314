@@ -3,7 +3,7 @@
 <head>
 	<title>Submit us your Bug!</title>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="src\Selststudium\04\bug_sumission_form\style.css" type="text/css" media="all" />
 	<script type="text/javascript">
 		  // ref: http://diveintohtml5.org/detect.html
 	  function supports_input_placeholder()
@@ -28,7 +28,7 @@
 
 	<h2>Bitte melde deinen Bug mit diesem Formular</h2>
 	
-	<form enctype="multipart/form-data" class="form" action="filebug.php" method="POST">
+	<form enctype="multipart/form-data" class="form" action="src\Selststudium\04\bug_sumission_form\filebug.php" method="POST">
 	
 		<p class="username">
 			<input type="text" name="user" id="user" placeholder="user" required/>

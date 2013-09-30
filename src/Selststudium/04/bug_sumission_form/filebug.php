@@ -16,8 +16,6 @@ $givenPriority = $_POST["priority"];
 $uploadedFilePath = "/uploads/" . $_FILES["userfile"]["name"];
 $givenMessage = $_POST["text"];
 
-echo "pass: ".$_POST["pass"]."</br>";
-
 if($allowedUser === $givenUser 
  & $allowedPass === $givenPass)
 {
@@ -100,7 +98,7 @@ if($allowedUser === $givenUser
 					  ."Meesage: "."</br>"
 					  .$givenMessage;
 			
-			require_once('../../../../3rdParty/PHPMailer_v5.1/class.phpmailer.php');
+			require_once('3rdParty/PHPMailer_v5.1/class.phpmailer.php');
 			
 			$mail             = new PHPMailer();
 			$mail->IsSMTP(); // telling the class to use SMTP
