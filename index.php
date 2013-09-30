@@ -17,6 +17,7 @@ DrawHeaderAndFooter::drawHeader();
 				<A HREF="src/phpinfo.php">phpInfo</A></P>
 				<A HREF="src/Uebungen4/duckducksearch.php">duckducksearch</A></P>
 				<A HREF="src/Uebungen4/sessionsample.php">session</A></P>
+				<A HREF="src\Selststudium\04\bug_sumission_form\index.php">s04 Bug submission form</A></P>
 				<!--<A HREF="?page = whueppa">whueppa?</A></P>-->
 			</NAV>
 		</HEADER>
