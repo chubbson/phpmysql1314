@@ -6,7 +6,7 @@ class DrawHeaderAndFooter
 				<html lang="en">
 				<head>
 				<meta charset="utf-8">
-				<title>PHP und MySQL - eine Einführung</title>
+				<title>PHP und MySQL</title>
 				<!--[if IE]>
 				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
 				</script>

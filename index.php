@@ -9,15 +9,17 @@ DrawHeaderAndFooter::drawHeader();
 <h1>asdf</h1>
 		<HEADER> <!-- site wide header -->
 			<NAV>
-				<P><A HREF="?page = src/error.php">error</A> 
-				<A HREF="src/ifoperation.php">if operations</A> 
-				<A HREF="src/stringoperation.php">string operations</A> 
-				<A HREF="src/whileoperation.php">while operations</A></P>
-				<A HREF="src/mail.php">send Mail</A></P>
-				<A HREF="src/phpinfo.php">phpInfo</A></P>
-				<A HREF="src/Uebungen4/duckducksearch.php">duckducksearch</A></P>
-				<A HREF="src/Uebungen4/sessionsample.php">session</A></P>
-				<A HREF="src\Selststudium\04\bug_sumission_form\index.php">s04 Bug submission form</A></P>
+				<A HREF="?page = src/error.php">error</A></br> 
+				<A HREF="src/ifoperation.php">if operations</A></br> 
+				<A HREF="src/stringoperation.php">string operations</A></br> 
+				<A HREF="src/whileoperation.php">while operations</A></br>
+				<A HREF="src/mail.php">send Mail</A></br>
+				<A HREF="src/phpinfo.php">phpInfo</A></br>
+				<A HREF="src/Uebungen4/duckducksearch.php">duckducksearch</A></br>
+				<A HREF="src/Uebungen4/sessionsample.php">session</A></br>
+				<A HREF="src\Selststudium\04\bug_sumission_form\index.php">s04 Bug submission form</A></br>
+				<A HREF="src\Uebungen\05\functions.php">U05 function sample</A></br>
+				<A HREF="src\Uebungen\05\ArrayFunctions.php">U05 Array function sample</A></br>
 				<!--<A HREF="?page = whueppa">whueppa?</A></P>-->
 			</NAV>
 		</HEADER>
