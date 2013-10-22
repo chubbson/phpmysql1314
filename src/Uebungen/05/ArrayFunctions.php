@@ -20,6 +20,20 @@ $multiCity = array(
 
 $header = array_shift($multiCity);
 
+$asdf = 1; 
+$asdf++;
+echo "$asdf";
+echo "<br>";
+
+$currdate = date("YmdHis");
+echo $currdate;
+echo "</br>";
+
+define('BAR', 10);
+$array = array(10 => BAR, "BAR" => 20);
+print $array[$array[BAR]]*$array["BAR"];
+
+
 function DrawTable($arrHeaderRow, $arrOfArr, $drawBorder = 1)
 {
 
